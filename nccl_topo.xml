@@ -1,0 +1,95 @@
+<system version="1">
+  <cpu host_hash="0xa7067bea49cd3731" numaid="3" affinity="00000000,ff000000" arch="x86_64" vendor="AuthenticAMD" familyid="143" modelid="49">
+    <pci busid="0000:01:00.0" class="0x030000" vendor="0x10de" device="0x2684" subsystem_vendor="0x1462" subsystem_device="0x510b" link_speed="16.0 GT/s PCIe" link_width="16">
+      <gpu dev="0" sm="89" rank="0" gdr="0"/>
+    </pci>
+    <nic>
+      <net name="tunl0" dev="1" latency="0" speed="10000" port="0" guid="0x1" maxconn="65536" gdr="0"/>
+      <net name="br-702d9f064725" dev="2" latency="0" speed="10000" port="0" guid="0x2" maxconn="65536" gdr="0"/>
+      <net name="br-d83088a852e6" dev="3" latency="0" speed="10000" port="0" guid="0x3" maxconn="65536" gdr="0"/>
+      <net name="cali1c7388b97f5" dev="4" latency="0" speed="10000" port="0" guid="0x4" maxconn="65536" gdr="0"/>
+      <net name="cali6d5ecd219c5" dev="5" latency="0" speed="10000" port="0" guid="0x5" maxconn="65536" gdr="0"/>
+      <net name="cali93a81d5cee2" dev="6" latency="0" speed="10000" port="0" guid="0x6" maxconn="65536" gdr="0"/>
+      <net name="cali207a7d3b6ab" dev="7" latency="0" speed="10000" port="0" guid="0x7" maxconn="65536" gdr="0"/>
+      <net name="calia93ffe9222f" dev="8" latency="0" speed="10000" port="0" guid="0x8" maxconn="65536" gdr="0"/>
+      <net name="cali4d7ed1f84f8" dev="9" latency="0" speed="10000" port="0" guid="0x9" maxconn="65536" gdr="0"/>
+      <net name="cali69fc26c9361" dev="10" latency="0" speed="10000" port="0" guid="0xa" maxconn="65536" gdr="0"/>
+      <net name="calid5c22db1c52" dev="11" latency="0" speed="10000" port="0" guid="0xb" maxconn="65536" gdr="0"/>
+      <net name="cali2426ae791e5" dev="12" latency="0" speed="10000" port="0" guid="0xc" maxconn="65536" gdr="0"/>
+      <net name="cali40a755e08dc" dev="13" latency="0" speed="10000" port="0" guid="0xd" maxconn="65536" gdr="0"/>
+      <net name="calia35129e86c1" dev="14" latency="0" speed="10000" port="0" guid="0xe" maxconn="65536" gdr="0"/>
+      <net name="cali621b112803a" dev="15" latency="0" speed="10000" port="0" guid="0xf" maxconn="65536" gdr="0"/>
+    </nic>
+  </cpu>
+  <cpu host_hash="0xa7067bea49cd3731" numaid="2" affinity="00000000,00ff0000" arch="x86_64" vendor="AuthenticAMD" familyid="143" modelid="49">
+    <pci busid="0000:22:00.0" class="0x020000" vendor="0x8086" device="0x1563" subsystem_vendor="0x1849" subsystem_device="0x1563" link_speed="8.0 GT/s PCIe" link_width="4">
+      <nic>
+        <net name="enp34s0f0" dev="0" latency="0" speed="1000" port="0" guid="0x0" maxconn="65536" gdr="0"/>
+      </nic>
+    </pci>
+    <pci busid="0000:26:00.0" class="0x030000" vendor="0x10de" device="0x2684" subsystem_vendor="0x1462" subsystem_device="0x510b" link_speed="16.0 GT/s PCIe" link_width="16">
+      <gpu dev="1" sm="89" rank="1" gdr="0"/>
+    </pci>
+    <nic>
+      <net name="tunl0" dev="1" latency="0" speed="10000" port="0" guid="0x1" maxconn="65536" gdr="0"/>
+      <net name="br-702d9f064725" dev="2" latency="0" speed="10000" port="0" guid="0x2" maxconn="65536" gdr="0"/>
+      <net name="br-d83088a852e6" dev="3" latency="0" speed="10000" port="0" guid="0x3" maxconn="65536" gdr="0"/>
+      <net name="cali1c7388b97f5" dev="4" latency="0" speed="10000" port="0" guid="0x4" maxconn="65536" gdr="0"/>
+      <net name="cali6d5ecd219c5" dev="5" latency="0" speed="10000" port="0" guid="0x5" maxconn="65536" gdr="0"/>
+      <net name="cali93a81d5cee2" dev="6" latency="0" speed="10000" port="0" guid="0x6" maxconn="65536" gdr="0"/>
+      <net name="cali207a7d3b6ab" dev="7" latency="0" speed="10000" port="0" guid="0x7" maxconn="65536" gdr="0"/>
+      <net name="calia93ffe9222f" dev="8" latency="0" speed="10000" port="0" guid="0x8" maxconn="65536" gdr="0"/>
+      <net name="cali4d7ed1f84f8" dev="9" latency="0" speed="10000" port="0" guid="0x9" maxconn="65536" gdr="0"/>
+      <net name="cali69fc26c9361" dev="10" latency="0" speed="10000" port="0" guid="0xa" maxconn="65536" gdr="0"/>
+      <net name="calid5c22db1c52" dev="11" latency="0" speed="10000" port="0" guid="0xb" maxconn="65536" gdr="0"/>
+      <net name="cali2426ae791e5" dev="12" latency="0" speed="10000" port="0" guid="0xc" maxconn="65536" gdr="0"/>
+      <net name="cali40a755e08dc" dev="13" latency="0" speed="10000" port="0" guid="0xd" maxconn="65536" gdr="0"/>
+      <net name="calia35129e86c1" dev="14" latency="0" speed="10000" port="0" guid="0xe" maxconn="65536" gdr="0"/>
+      <net name="cali621b112803a" dev="15" latency="0" speed="10000" port="0" guid="0xf" maxconn="65536" gdr="0"/>
+    </nic>
+  </cpu>
+  <cpu host_hash="0xa7067bea49cd3731" numaid="0" affinity="00000000,000000ff" arch="x86_64" vendor="AuthenticAMD" familyid="143" modelid="49">
+    <pci busid="0000:61:00.0" class="0x030000" vendor="0x10de" device="0x2684" subsystem_vendor="0x1462" subsystem_device="0x510b" link_speed="16.0 GT/s PCIe" link_width="16">
+      <gpu dev="3" sm="89" rank="2" gdr="0"/>
+    </pci>
+    <nic>
+      <net name="tunl0" dev="1" latency="0" speed="10000" port="0" guid="0x1" maxconn="65536" gdr="0"/>
+      <net name="br-702d9f064725" dev="2" latency="0" speed="10000" port="0" guid="0x2" maxconn="65536" gdr="0"/>
+      <net name="br-d83088a852e6" dev="3" latency="0" speed="10000" port="0" guid="0x3" maxconn="65536" gdr="0"/>
+      <net name="cali1c7388b97f5" dev="4" latency="0" speed="10000" port="0" guid="0x4" maxconn="65536" gdr="0"/>
+      <net name="cali6d5ecd219c5" dev="5" latency="0" speed="10000" port="0" guid="0x5" maxconn="65536" gdr="0"/>
+      <net name="cali93a81d5cee2" dev="6" latency="0" speed="10000" port="0" guid="0x6" maxconn="65536" gdr="0"/>
+      <net name="cali207a7d3b6ab" dev="7" latency="0" speed="10000" port="0" guid="0x7" maxconn="65536" gdr="0"/>
+      <net name="calia93ffe9222f" dev="8" latency="0" speed="10000" port="0" guid="0x8" maxconn="65536" gdr="0"/>
+      <net name="cali4d7ed1f84f8" dev="9" latency="0" speed="10000" port="0" guid="0x9" maxconn="65536" gdr="0"/>
+      <net name="cali69fc26c9361" dev="10" latency="0" speed="10000" port="0" guid="0xa" maxconn="65536" gdr="0"/>
+      <net name="calid5c22db1c52" dev="11" latency="0" speed="10000" port="0" guid="0xb" maxconn="65536" gdr="0"/>
+      <net name="cali2426ae791e5" dev="12" latency="0" speed="10000" port="0" guid="0xc" maxconn="65536" gdr="0"/>
+      <net name="cali40a755e08dc" dev="13" latency="0" speed="10000" port="0" guid="0xd" maxconn="65536" gdr="0"/>
+      <net name="calia35129e86c1" dev="14" latency="0" speed="10000" port="0" guid="0xe" maxconn="65536" gdr="0"/>
+      <net name="cali621b112803a" dev="15" latency="0" speed="10000" port="0" guid="0xf" maxconn="65536" gdr="0"/>
+    </nic>
+  </cpu>
+  <cpu host_hash="0xa7067bea49cd3731" numaid="7" affinity="ff000000,00000000" arch="x86_64" vendor="AuthenticAMD" familyid="143" modelid="49">
+    <pci busid="0000:81:00.0" class="0x030000" vendor="0x10de" device="0x2684" subsystem_vendor="0x1462" subsystem_device="0x510b" link_speed="16.0 GT/s PCIe" link_width="16">
+      <gpu dev="4" sm="89" rank="3" gdr="0"/>
+    </pci>
+    <nic>
+      <net name="tunl0" dev="1" latency="0" speed="10000" port="0" guid="0x1" maxconn="65536" gdr="0"/>
+      <net name="br-702d9f064725" dev="2" latency="0" speed="10000" port="0" guid="0x2" maxconn="65536" gdr="0"/>
+      <net name="br-d83088a852e6" dev="3" latency="0" speed="10000" port="0" guid="0x3" maxconn="65536" gdr="0"/>
+      <net name="cali1c7388b97f5" dev="4" latency="0" speed="10000" port="0" guid="0x4" maxconn="65536" gdr="0"/>
+      <net name="cali6d5ecd219c5" dev="5" latency="0" speed="10000" port="0" guid="0x5" maxconn="65536" gdr="0"/>
+      <net name="cali93a81d5cee2" dev="6" latency="0" speed="10000" port="0" guid="0x6" maxconn="65536" gdr="0"/>
+      <net name="cali207a7d3b6ab" dev="7" latency="0" speed="10000" port="0" guid="0x7" maxconn="65536" gdr="0"/>
+      <net name="calia93ffe9222f" dev="8" latency="0" speed="10000" port="0" guid="0x8" maxconn="65536" gdr="0"/>
+      <net name="cali4d7ed1f84f8" dev="9" latency="0" speed="10000" port="0" guid="0x9" maxconn="65536" gdr="0"/>
+      <net name="cali69fc26c9361" dev="10" latency="0" speed="10000" port="0" guid="0xa" maxconn="65536" gdr="0"/>
+      <net name="calid5c22db1c52" dev="11" latency="0" speed="10000" port="0" guid="0xb" maxconn="65536" gdr="0"/>
+      <net name="cali2426ae791e5" dev="12" latency="0" speed="10000" port="0" guid="0xc" maxconn="65536" gdr="0"/>
+      <net name="cali40a755e08dc" dev="13" latency="0" speed="10000" port="0" guid="0xd" maxconn="65536" gdr="0"/>
+      <net name="calia35129e86c1" dev="14" latency="0" speed="10000" port="0" guid="0xe" maxconn="65536" gdr="0"/>
+      <net name="cali621b112803a" dev="15" latency="0" speed="10000" port="0" guid="0xf" maxconn="65536" gdr="0"/>
+    </nic>
+  </cpu>
+</system>
