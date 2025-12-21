@@ -79,18 +79,22 @@ run_with_nccl_tuner:
     /home/stone/lxn/nccl_tests/build/all_reduce_perf -b 128M -e 1G -f 2 -g 1 -c 0 -n 50 -d int32 -w 10
 
 run_with_inspector:
-    mpirun --allow-run-as-root -np 2 \
+    mpirun --allow-run-as-root -np 4 \
     -x NCCL_DEBUG=TRACE \
     -x NCCL_NET_GDR_LEVEL=3 \
     -x NCCL_GDR_READ=1 \
     -x NCCL_DEBUG_SUBSYS=ALL \
     -x NCCL_DEBUG_FILE=/home/stone/lxn/nccl_tests/nccl_trace.log \
-    -x CUDA_VISIBLE_DEVICES=1,2 \
+    -x CUDA_VISIBLE_DEVICES=1,2,3,4 \
     -x NCCL_PROFILER_PLUGIN=/home/stone/lxn/NCCL-v2.28.9-1/nccl-2.28.9-1/ext-profiler/inspector/libnccl-profiler-inspector.so \
     -x NCCL_INSPECTOR_DUMP_THREAD_INTERVAL_MICROSECONDS=500 \
-    -x NCCL_INSPECTOR_DUMP_DIR=/home/stone/lxn/nccl_tests/inspector \
+    -x NCCL_INSPECTOR_DUMP_DIR=/home/stone/lxn/nccl_tests/inspector_with_tuner \
     -x NCCL_INSPECTOR_ENABLE=1 \
     -x NCCL_TENANT_ID=1001 \
+    -x NCCL_TUNER_PLUGIN=/home/stone/lxn/NCCL-v2.28.9-1/nccl-2.28.9-1/ext-tuner/example/libnccl-tuner-example.so \
+    -x NCCL_TUNER_CONFIG_FILE=/home/stone/lxn/NCCL-v2.28.9-1/nccl-2.28.9-1/ext-tuner/example/nccl_tuner_1node4dev.conf \
+    -x EXT_RECONFIG_DEBUG=1 \
+    -x EXT_RECONFIG_THRESHOLDS="256K,4M" \
     /home/stone/lxn/nccl_tests/build/all_reduce_perf -b 128M -e 1G -f 2 -g 1 -c 0 -n 50 -d int32 -w 10
 
 
