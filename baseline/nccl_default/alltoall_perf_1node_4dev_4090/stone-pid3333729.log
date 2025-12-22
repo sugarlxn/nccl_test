@@ -1,0 +1,7 @@
+https://github.com/NVIDIA/nccl/issues/1877
+[Question]: Will Inspector support p2p communications, like alltoall? #1877
+xiaofanl-nvidia
+on Oct 29
+Collaborator
+Yes we are working on this. It will likely not come in 2.29, more likely in 2.29 Update 1 or 2.30. @gcongiu for viz.
+

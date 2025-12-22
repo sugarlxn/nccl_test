@@ -1,0 +1,149 @@
+2025-12-22 20:39:24,862 - INFO - Created parquet file /home/stone/lxn/nccl_tests/baseline/nccl_default/all_reduce_perf_1node_4dev_4090/output/parquet_files/stone-pid3297946.parquet with 1900 records
+2025-12-22 20:39:24,868 - INFO - Created parquet file /home/stone/lxn/nccl_tests/baseline/nccl_default/all_reduce_perf_1node_4dev_4090/output/parquet_files/stone-pid3297947.parquet with 1904 records
+2025-12-22 20:39:24,871 - INFO - Created parquet file /home/stone/lxn/nccl_tests/baseline/nccl_default/all_reduce_perf_1node_4dev_4090/output/parquet_files/stone-pid3297944.parquet with 1900 records
+2025-12-22 20:39:24,871 - INFO - Created parquet file /home/stone/lxn/nccl_tests/baseline/nccl_default/all_reduce_perf_1node_4dev_4090/output/parquet_files/stone-pid3297945.parquet with 1889 records
+2025-12-22 20:39:24,913 - INFO - Generating summary for /home/stone/lxn/nccl_tests/baseline/nccl_default/all_reduce_perf_1node_4dev_4090/output, single-rank and AllReduce
+2025-12-22 20:39:24,914 - INFO - Summarizing data per comm/coll type for /home/stone/lxn/nccl_tests/baseline/nccl_default/all_reduce_perf_1node_4dev_4090/output, single-rank and AllReduce
+2025-12-22 20:39:24,914 - INFO - Generating summary for /home/stone/lxn/nccl_tests/baseline/nccl_default/all_reduce_perf_1node_4dev_4090/output, single-rank and ReduceScatter
+2025-12-22 20:39:24,914 - INFO - Generating summary for /home/stone/lxn/nccl_tests/baseline/nccl_default/all_reduce_perf_1node_4dev_4090/output, nvlink-only and AllGather
+2025-12-22 20:39:24,914 - INFO - Generating summary for /home/stone/lxn/nccl_tests/baseline/nccl_default/all_reduce_perf_1node_4dev_4090/output, single-rank and AllGather
+2025-12-22 20:39:24,914 - INFO - Generating summary for /home/stone/lxn/nccl_tests/baseline/nccl_default/all_reduce_perf_1node_4dev_4090/output, nvlink-only and AllReduce
+2025-12-22 20:39:24,914 - INFO - Generating summary for /home/stone/lxn/nccl_tests/baseline/nccl_default/all_reduce_perf_1node_4dev_4090/output, single-rank and Broadcast
+2025-12-22 20:39:24,914 - INFO - Generating summary for /home/stone/lxn/nccl_tests/baseline/nccl_default/all_reduce_perf_1node_4dev_4090/output, nvlink-only and ReduceScatter
+2025-12-22 20:39:24,915 - INFO - Generating summary for /home/stone/lxn/nccl_tests/baseline/nccl_default/all_reduce_perf_1node_4dev_4090/output, hca-only and AllGather
+2025-12-22 20:39:24,915 - INFO - Generating summary for /home/stone/lxn/nccl_tests/baseline/nccl_default/all_reduce_perf_1node_4dev_4090/output, nvlink-only and Broadcast
+2025-12-22 20:39:24,915 - INFO - Generating summary for /home/stone/lxn/nccl_tests/baseline/nccl_default/all_reduce_perf_1node_4dev_4090/output, hca-only and AllReduce
+2025-12-22 20:39:24,915 - INFO - Summarizing data per comm/coll type for /home/stone/lxn/nccl_tests/baseline/nccl_default/all_reduce_perf_1node_4dev_4090/output, single-rank and ReduceScatter
+2025-12-22 20:39:24,915 - INFO - Summarizing data per comm/coll type for /home/stone/lxn/nccl_tests/baseline/nccl_default/all_reduce_perf_1node_4dev_4090/output, nvlink-only and AllGather
+2025-12-22 20:39:24,915 - INFO - Summarizing data per comm/coll type for /home/stone/lxn/nccl_tests/baseline/nccl_default/all_reduce_perf_1node_4dev_4090/output, single-rank and AllGather
+2025-12-22 20:39:24,915 - INFO - Summarizing data per comm/coll type for /home/stone/lxn/nccl_tests/baseline/nccl_default/all_reduce_perf_1node_4dev_4090/output, nvlink-only and AllReduce
+2025-12-22 20:39:24,915 - INFO - Summarizing data per comm/coll type for /home/stone/lxn/nccl_tests/baseline/nccl_default/all_reduce_perf_1node_4dev_4090/output, single-rank and Broadcast
+2025-12-22 20:39:24,915 - INFO - Summarizing data per comm/coll type for /home/stone/lxn/nccl_tests/baseline/nccl_default/all_reduce_perf_1node_4dev_4090/output, hca-only and AllGather
+2025-12-22 20:39:24,915 - INFO - Summarizing data per comm/coll type for /home/stone/lxn/nccl_tests/baseline/nccl_default/all_reduce_perf_1node_4dev_4090/output, nvlink-only and ReduceScatter
+2025-12-22 20:39:24,915 - INFO - Summarizing data per comm/coll type for /home/stone/lxn/nccl_tests/baseline/nccl_default/all_reduce_perf_1node_4dev_4090/output, hca-only and AllReduce
+2025-12-22 20:39:24,915 - INFO - Summarizing data per comm/coll type for /home/stone/lxn/nccl_tests/baseline/nccl_default/all_reduce_perf_1node_4dev_4090/output, nvlink-only and Broadcast
+2025-12-22 20:39:24,915 - INFO - Generating summary for /home/stone/lxn/nccl_tests/baseline/nccl_default/all_reduce_perf_1node_4dev_4090/output, hca-only and Broadcast
+2025-12-22 20:39:24,915 - INFO - Generating summary for /home/stone/lxn/nccl_tests/baseline/nccl_default/all_reduce_perf_1node_4dev_4090/output, hca-only and ReduceScatter
+2025-12-22 20:39:24,915 - INFO - Generating summary for /home/stone/lxn/nccl_tests/baseline/nccl_default/all_reduce_perf_1node_4dev_4090/output, mixed and AllReduce
+2025-12-22 20:39:24,916 - INFO - Summarizing data per comm/coll type for /home/stone/lxn/nccl_tests/baseline/nccl_default/all_reduce_perf_1node_4dev_4090/output, hca-only and Broadcast
+2025-12-22 20:39:24,916 - INFO - Summarizing data per comm/coll type for /home/stone/lxn/nccl_tests/baseline/nccl_default/all_reduce_perf_1node_4dev_4090/output, hca-only and ReduceScatter
+2025-12-22 20:39:24,916 - INFO - Summarizing data per comm/coll type for /home/stone/lxn/nccl_tests/baseline/nccl_default/all_reduce_perf_1node_4dev_4090/output, mixed and AllReduce
+2025-12-22 20:39:24,916 - INFO - Generating summary for /home/stone/lxn/nccl_tests/baseline/nccl_default/all_reduce_perf_1node_4dev_4090/output, mixed and AllGather
+2025-12-22 20:39:24,916 - INFO - Summarizing data per comm/coll type for /home/stone/lxn/nccl_tests/baseline/nccl_default/all_reduce_perf_1node_4dev_4090/output, mixed and AllGather
+2025-12-22 20:39:24,916 - INFO - Generating summary for /home/stone/lxn/nccl_tests/baseline/nccl_default/all_reduce_perf_1node_4dev_4090/output, mixed and ReduceScatter
+2025-12-22 20:39:24,917 - INFO - Summarizing data per comm/coll type for /home/stone/lxn/nccl_tests/baseline/nccl_default/all_reduce_perf_1node_4dev_4090/output, mixed and ReduceScatter
+2025-12-22 20:39:24,919 - INFO - Generating summary for /home/stone/lxn/nccl_tests/baseline/nccl_default/all_reduce_perf_1node_4dev_4090/output, mixed and Broadcast
+2025-12-22 20:39:24,919 - INFO - Summarizing data per comm/coll type for /home/stone/lxn/nccl_tests/baseline/nccl_default/all_reduce_perf_1node_4dev_4090/output, mixed and Broadcast
+2025-12-22 20:39:24,924 - INFO - Found 4 valid parquet files (moved 0 invalid files)
+2025-12-22 20:39:24,926 - INFO - Found 4 valid parquet files (moved 0 invalid files)
+2025-12-22 20:39:24,927 - INFO - Found 4 valid parquet files (moved 0 invalid files)
+2025-12-22 20:39:24,927 - INFO - Found 4 valid parquet files (moved 0 invalid files)
+2025-12-22 20:39:24,927 - INFO - Found 4 valid parquet files (moved 0 invalid files)
+2025-12-22 20:39:24,927 - INFO - Found 4 valid parquet files (moved 0 invalid files)
+2025-12-22 20:39:24,927 - INFO - Found 4 valid parquet files (moved 0 invalid files)
+2025-12-22 20:39:24,930 - INFO - Found 4 valid parquet files (moved 0 invalid files)
+2025-12-22 20:39:24,930 - INFO - Found 4 valid parquet files (moved 0 invalid files)
+2025-12-22 20:39:24,931 - INFO - Found 4 valid parquet files (moved 0 invalid files)
+2025-12-22 20:39:24,932 - INFO - Found 4 valid parquet files (moved 0 invalid files)
+2025-12-22 20:39:24,932 - INFO - Found 4 valid parquet files (moved 0 invalid files)
+2025-12-22 20:39:24,932 - INFO - No data for single-rank and AllReduce
+2025-12-22 20:39:24,932 - INFO - Found 4 valid parquet files (moved 0 invalid files)
+2025-12-22 20:39:24,932 - WARNING - No data found for single-rank and AllReduce - skipping visualization generation
+2025-12-22 20:39:24,932 - INFO - Found 4 valid parquet files (moved 0 invalid files)
+2025-12-22 20:39:24,932 - INFO - Found 4 valid parquet files (moved 0 invalid files)
+2025-12-22 20:39:24,932 - INFO - Found 4 valid parquet files (moved 0 invalid files)
+2025-12-22 20:39:24,936 - INFO - No data for single-rank and AllGather
+2025-12-22 20:39:24,936 - WARNING - No data found for single-rank and AllGather - skipping visualization generation
+2025-12-22 20:39:24,937 - INFO - No data for single-rank and Broadcast
+2025-12-22 20:39:24,937 - INFO - No data for hca-only and AllGather
+2025-12-22 20:39:24,938 - WARNING - No data found for hca-only and AllGather - skipping visualization generation
+2025-12-22 20:39:24,938 - INFO - No data for single-rank and ReduceScatter
+2025-12-22 20:39:24,938 - INFO - No data for nvlink-only and AllGather
+2025-12-22 20:39:24,938 - WARNING - No data found for single-rank and Broadcast - skipping visualization generation
+2025-12-22 20:39:24,938 - WARNING - No data found for single-rank and ReduceScatter - skipping visualization generation
+2025-12-22 20:39:24,938 - WARNING - No data found for nvlink-only and AllGather - skipping visualization generation
+2025-12-22 20:39:24,939 - INFO - No data for mixed and Broadcast
+2025-12-22 20:39:24,939 - WARNING - No data found for mixed and Broadcast - skipping visualization generation
+2025-12-22 20:39:24,941 - INFO - No data for hca-only and ReduceScatter
+2025-12-22 20:39:24,941 - WARNING - No data found for hca-only and ReduceScatter - skipping visualization generation
+2025-12-22 20:39:24,944 - INFO - No data for mixed and ReduceScatter
+2025-12-22 20:39:24,944 - WARNING - No data found for mixed and ReduceScatter - skipping visualization generation
+2025-12-22 20:39:24,945 - INFO - No data for hca-only and AllReduce
+2025-12-22 20:39:24,945 - WARNING - No data found for hca-only and AllReduce - skipping visualization generation
+2025-12-22 20:39:24,947 - INFO - No data for mixed and AllGather
+2025-12-22 20:39:24,947 - INFO - No data for hca-only and Broadcast
+2025-12-22 20:39:24,947 - INFO - No data for mixed and AllReduce
+2025-12-22 20:39:24,948 - INFO - No data for nvlink-only and Broadcast
+2025-12-22 20:39:24,948 - INFO - No data for nvlink-only and ReduceScatter
+2025-12-22 20:39:24,948 - WARNING - No data found for mixed and AllGather - skipping visualization generation
+2025-12-22 20:39:24,948 - WARNING - No data found for hca-only and Broadcast - skipping visualization generation
+2025-12-22 20:39:24,948 - WARNING - No data found for mixed and AllReduce - skipping visualization generation
+2025-12-22 20:39:24,948 - WARNING - No data found for nvlink-only and Broadcast - skipping visualization generation
+2025-12-22 20:39:24,948 - WARNING - No data found for nvlink-only and ReduceScatter - skipping visualization generation
+2025-12-22 20:39:24,963 - INFO - Example time range - ID: 0x141f971a045e44, Coll_SN: 0, Start: 2025-12-22 20:35:51.178, End: 2025-12-22 20:35:51.178, Duration: 0.0μs
+2025-12-22 20:39:24,963 - INFO - Generating visualizations for nvlink-only and AllReduce
+2025-12-22 20:39:27,717 - INFO - Scatter plot saved to /home/stone/lxn/nccl_tests/baseline/nccl_default/all_reduce_perf_1node_4dev_4090/output/summary/scatter_plot_nvlink-only_AllReduce.png
+2025-12-22 20:39:30,240 - INFO - Combined scatter plot saved to /home/stone/lxn/nccl_tests/baseline/nccl_default/all_reduce_perf_1node_4dev_4090/output/summary/combined_scatter_plot_nvlink-only_AllReduce.png
+2025-12-22 20:39:30,377 - INFO - Histogram saved to /home/stone/lxn/nccl_tests/baseline/nccl_default/all_reduce_perf_1node_4dev_4090/output/summary/msg_size_4096_4.10KB/histograms/histogram_nvlink-only_AllReduce_4096.png
+2025-12-22 20:39:30,510 - INFO - Box plot saved to /home/stone/lxn/nccl_tests/baseline/nccl_default/all_reduce_perf_1node_4dev_4090/output/summary/msg_size_4096_4.10KB/boxplots/boxplot_nvlink-only_AllReduce_4096.png
+2025-12-22 20:39:30,515 - INFO - Summary for nvlink-only, AllReduce, and msg_size 4096 written to /home/stone/lxn/nccl_tests/baseline/nccl_default/all_reduce_perf_1node_4dev_4090/output/summary/msg_size_4096_4.10KB/summary_nvlink-only_AllReduce_4096.csv
+2025-12-22 20:39:30,632 - INFO - Histogram saved to /home/stone/lxn/nccl_tests/baseline/nccl_default/all_reduce_perf_1node_4dev_4090/output/summary/msg_size_8192_8.19KB/histograms/histogram_nvlink-only_AllReduce_8192.png
+2025-12-22 20:39:30,757 - INFO - Box plot saved to /home/stone/lxn/nccl_tests/baseline/nccl_default/all_reduce_perf_1node_4dev_4090/output/summary/msg_size_8192_8.19KB/boxplots/boxplot_nvlink-only_AllReduce_8192.png
+2025-12-22 20:39:30,762 - INFO - Summary for nvlink-only, AllReduce, and msg_size 8192 written to /home/stone/lxn/nccl_tests/baseline/nccl_default/all_reduce_perf_1node_4dev_4090/output/summary/msg_size_8192_8.19KB/summary_nvlink-only_AllReduce_8192.csv
+2025-12-22 20:39:30,902 - INFO - Histogram saved to /home/stone/lxn/nccl_tests/baseline/nccl_default/all_reduce_perf_1node_4dev_4090/output/summary/msg_size_16384_16.38KB/histograms/histogram_nvlink-only_AllReduce_16384.png
+2025-12-22 20:39:31,032 - INFO - Box plot saved to /home/stone/lxn/nccl_tests/baseline/nccl_default/all_reduce_perf_1node_4dev_4090/output/summary/msg_size_16384_16.38KB/boxplots/boxplot_nvlink-only_AllReduce_16384.png
+2025-12-22 20:39:31,036 - INFO - Summary for nvlink-only, AllReduce, and msg_size 16384 written to /home/stone/lxn/nccl_tests/baseline/nccl_default/all_reduce_perf_1node_4dev_4090/output/summary/msg_size_16384_16.38KB/summary_nvlink-only_AllReduce_16384.csv
+2025-12-22 20:39:31,155 - INFO - Histogram saved to /home/stone/lxn/nccl_tests/baseline/nccl_default/all_reduce_perf_1node_4dev_4090/output/summary/msg_size_32768_32.77KB/histograms/histogram_nvlink-only_AllReduce_32768.png
+2025-12-22 20:39:31,274 - INFO - Box plot saved to /home/stone/lxn/nccl_tests/baseline/nccl_default/all_reduce_perf_1node_4dev_4090/output/summary/msg_size_32768_32.77KB/boxplots/boxplot_nvlink-only_AllReduce_32768.png
+2025-12-22 20:39:31,278 - INFO - Summary for nvlink-only, AllReduce, and msg_size 32768 written to /home/stone/lxn/nccl_tests/baseline/nccl_default/all_reduce_perf_1node_4dev_4090/output/summary/msg_size_32768_32.77KB/summary_nvlink-only_AllReduce_32768.csv
+2025-12-22 20:39:31,390 - INFO - Histogram saved to /home/stone/lxn/nccl_tests/baseline/nccl_default/all_reduce_perf_1node_4dev_4090/output/summary/msg_size_65536_65.54KB/histograms/histogram_nvlink-only_AllReduce_65536.png
+2025-12-22 20:39:31,508 - INFO - Box plot saved to /home/stone/lxn/nccl_tests/baseline/nccl_default/all_reduce_perf_1node_4dev_4090/output/summary/msg_size_65536_65.54KB/boxplots/boxplot_nvlink-only_AllReduce_65536.png
+2025-12-22 20:39:31,514 - INFO - Summary for nvlink-only, AllReduce, and msg_size 65536 written to /home/stone/lxn/nccl_tests/baseline/nccl_default/all_reduce_perf_1node_4dev_4090/output/summary/msg_size_65536_65.54KB/summary_nvlink-only_AllReduce_65536.csv
+2025-12-22 20:39:31,622 - INFO - Histogram saved to /home/stone/lxn/nccl_tests/baseline/nccl_default/all_reduce_perf_1node_4dev_4090/output/summary/msg_size_131072_131.07KB/histograms/histogram_nvlink-only_AllReduce_131072.png
+2025-12-22 20:39:31,742 - INFO - Box plot saved to /home/stone/lxn/nccl_tests/baseline/nccl_default/all_reduce_perf_1node_4dev_4090/output/summary/msg_size_131072_131.07KB/boxplots/boxplot_nvlink-only_AllReduce_131072.png
+2025-12-22 20:39:31,748 - INFO - Summary for nvlink-only, AllReduce, and msg_size 131072 written to /home/stone/lxn/nccl_tests/baseline/nccl_default/all_reduce_perf_1node_4dev_4090/output/summary/msg_size_131072_131.07KB/summary_nvlink-only_AllReduce_131072.csv
+2025-12-22 20:39:31,928 - INFO - Histogram saved to /home/stone/lxn/nccl_tests/baseline/nccl_default/all_reduce_perf_1node_4dev_4090/output/summary/msg_size_262144_262.14KB/histograms/histogram_nvlink-only_AllReduce_262144.png
+2025-12-22 20:39:32,057 - INFO - Box plot saved to /home/stone/lxn/nccl_tests/baseline/nccl_default/all_reduce_perf_1node_4dev_4090/output/summary/msg_size_262144_262.14KB/boxplots/boxplot_nvlink-only_AllReduce_262144.png
+2025-12-22 20:39:32,063 - INFO - Summary for nvlink-only, AllReduce, and msg_size 262144 written to /home/stone/lxn/nccl_tests/baseline/nccl_default/all_reduce_perf_1node_4dev_4090/output/summary/msg_size_262144_262.14KB/summary_nvlink-only_AllReduce_262144.csv
+2025-12-22 20:39:32,172 - INFO - Histogram saved to /home/stone/lxn/nccl_tests/baseline/nccl_default/all_reduce_perf_1node_4dev_4090/output/summary/msg_size_524288_524.29KB/histograms/histogram_nvlink-only_AllReduce_524288.png
+2025-12-22 20:39:32,292 - INFO - Box plot saved to /home/stone/lxn/nccl_tests/baseline/nccl_default/all_reduce_perf_1node_4dev_4090/output/summary/msg_size_524288_524.29KB/boxplots/boxplot_nvlink-only_AllReduce_524288.png
+2025-12-22 20:39:32,298 - INFO - Summary for nvlink-only, AllReduce, and msg_size 524288 written to /home/stone/lxn/nccl_tests/baseline/nccl_default/all_reduce_perf_1node_4dev_4090/output/summary/msg_size_524288_524.29KB/summary_nvlink-only_AllReduce_524288.csv
+2025-12-22 20:39:32,424 - INFO - Histogram saved to /home/stone/lxn/nccl_tests/baseline/nccl_default/all_reduce_perf_1node_4dev_4090/output/summary/msg_size_1048576_1.05MB/histograms/histogram_nvlink-only_AllReduce_1048576.png
+2025-12-22 20:39:32,548 - INFO - Box plot saved to /home/stone/lxn/nccl_tests/baseline/nccl_default/all_reduce_perf_1node_4dev_4090/output/summary/msg_size_1048576_1.05MB/boxplots/boxplot_nvlink-only_AllReduce_1048576.png
+2025-12-22 20:39:32,555 - INFO - Summary for nvlink-only, AllReduce, and msg_size 1048576 written to /home/stone/lxn/nccl_tests/baseline/nccl_default/all_reduce_perf_1node_4dev_4090/output/summary/msg_size_1048576_1.05MB/summary_nvlink-only_AllReduce_1048576.csv
+2025-12-22 20:39:32,672 - INFO - Histogram saved to /home/stone/lxn/nccl_tests/baseline/nccl_default/all_reduce_perf_1node_4dev_4090/output/summary/msg_size_2097152_2.10MB/histograms/histogram_nvlink-only_AllReduce_2097152.png
+2025-12-22 20:39:32,798 - INFO - Box plot saved to /home/stone/lxn/nccl_tests/baseline/nccl_default/all_reduce_perf_1node_4dev_4090/output/summary/msg_size_2097152_2.10MB/boxplots/boxplot_nvlink-only_AllReduce_2097152.png
+2025-12-22 20:39:32,805 - INFO - Summary for nvlink-only, AllReduce, and msg_size 2097152 written to /home/stone/lxn/nccl_tests/baseline/nccl_default/all_reduce_perf_1node_4dev_4090/output/summary/msg_size_2097152_2.10MB/summary_nvlink-only_AllReduce_2097152.csv
+2025-12-22 20:39:32,924 - INFO - Histogram saved to /home/stone/lxn/nccl_tests/baseline/nccl_default/all_reduce_perf_1node_4dev_4090/output/summary/msg_size_4194304_4.19MB/histograms/histogram_nvlink-only_AllReduce_4194304.png
+2025-12-22 20:39:33,054 - INFO - Box plot saved to /home/stone/lxn/nccl_tests/baseline/nccl_default/all_reduce_perf_1node_4dev_4090/output/summary/msg_size_4194304_4.19MB/boxplots/boxplot_nvlink-only_AllReduce_4194304.png
+2025-12-22 20:39:33,060 - INFO - Summary for nvlink-only, AllReduce, and msg_size 4194304 written to /home/stone/lxn/nccl_tests/baseline/nccl_default/all_reduce_perf_1node_4dev_4090/output/summary/msg_size_4194304_4.19MB/summary_nvlink-only_AllReduce_4194304.csv
+2025-12-22 20:39:33,168 - INFO - Histogram saved to /home/stone/lxn/nccl_tests/baseline/nccl_default/all_reduce_perf_1node_4dev_4090/output/summary/msg_size_8388608_8.39MB/histograms/histogram_nvlink-only_AllReduce_8388608.png
+2025-12-22 20:39:33,291 - INFO - Box plot saved to /home/stone/lxn/nccl_tests/baseline/nccl_default/all_reduce_perf_1node_4dev_4090/output/summary/msg_size_8388608_8.39MB/boxplots/boxplot_nvlink-only_AllReduce_8388608.png
+2025-12-22 20:39:33,298 - INFO - Summary for nvlink-only, AllReduce, and msg_size 8388608 written to /home/stone/lxn/nccl_tests/baseline/nccl_default/all_reduce_perf_1node_4dev_4090/output/summary/msg_size_8388608_8.39MB/summary_nvlink-only_AllReduce_8388608.csv
+2025-12-22 20:39:33,419 - INFO - Histogram saved to /home/stone/lxn/nccl_tests/baseline/nccl_default/all_reduce_perf_1node_4dev_4090/output/summary/msg_size_16777216_16.78MB/histograms/histogram_nvlink-only_AllReduce_16777216.png
+2025-12-22 20:39:33,552 - INFO - Box plot saved to /home/stone/lxn/nccl_tests/baseline/nccl_default/all_reduce_perf_1node_4dev_4090/output/summary/msg_size_16777216_16.78MB/boxplots/boxplot_nvlink-only_AllReduce_16777216.png
+2025-12-22 20:39:33,558 - INFO - Summary for nvlink-only, AllReduce, and msg_size 16777216 written to /home/stone/lxn/nccl_tests/baseline/nccl_default/all_reduce_perf_1node_4dev_4090/output/summary/msg_size_16777216_16.78MB/summary_nvlink-only_AllReduce_16777216.csv
+2025-12-22 20:39:33,671 - INFO - Histogram saved to /home/stone/lxn/nccl_tests/baseline/nccl_default/all_reduce_perf_1node_4dev_4090/output/summary/msg_size_33554432_33.55MB/histograms/histogram_nvlink-only_AllReduce_33554432.png
+2025-12-22 20:39:33,795 - INFO - Box plot saved to /home/stone/lxn/nccl_tests/baseline/nccl_default/all_reduce_perf_1node_4dev_4090/output/summary/msg_size_33554432_33.55MB/boxplots/boxplot_nvlink-only_AllReduce_33554432.png
+2025-12-22 20:39:33,802 - INFO - Summary for nvlink-only, AllReduce, and msg_size 33554432 written to /home/stone/lxn/nccl_tests/baseline/nccl_default/all_reduce_perf_1node_4dev_4090/output/summary/msg_size_33554432_33.55MB/summary_nvlink-only_AllReduce_33554432.csv
+2025-12-22 20:39:33,920 - INFO - Histogram saved to /home/stone/lxn/nccl_tests/baseline/nccl_default/all_reduce_perf_1node_4dev_4090/output/summary/msg_size_67108864_67.11MB/histograms/histogram_nvlink-only_AllReduce_67108864.png
+2025-12-22 20:39:34,043 - INFO - Box plot saved to /home/stone/lxn/nccl_tests/baseline/nccl_default/all_reduce_perf_1node_4dev_4090/output/summary/msg_size_67108864_67.11MB/boxplots/boxplot_nvlink-only_AllReduce_67108864.png
+2025-12-22 20:39:34,050 - INFO - Summary for nvlink-only, AllReduce, and msg_size 67108864 written to /home/stone/lxn/nccl_tests/baseline/nccl_default/all_reduce_perf_1node_4dev_4090/output/summary/msg_size_67108864_67.11MB/summary_nvlink-only_AllReduce_67108864.csv
+2025-12-22 20:39:34,175 - INFO - Histogram saved to /home/stone/lxn/nccl_tests/baseline/nccl_default/all_reduce_perf_1node_4dev_4090/output/summary/msg_size_134217728_134.22MB/histograms/histogram_nvlink-only_AllReduce_134217728.png
+2025-12-22 20:39:34,305 - INFO - Box plot saved to /home/stone/lxn/nccl_tests/baseline/nccl_default/all_reduce_perf_1node_4dev_4090/output/summary/msg_size_134217728_134.22MB/boxplots/boxplot_nvlink-only_AllReduce_134217728.png
+2025-12-22 20:39:34,312 - INFO - Summary for nvlink-only, AllReduce, and msg_size 134217728 written to /home/stone/lxn/nccl_tests/baseline/nccl_default/all_reduce_perf_1node_4dev_4090/output/summary/msg_size_134217728_134.22MB/summary_nvlink-only_AllReduce_134217728.csv
+2025-12-22 20:39:34,430 - INFO - Histogram saved to /home/stone/lxn/nccl_tests/baseline/nccl_default/all_reduce_perf_1node_4dev_4090/output/summary/msg_size_268435456_268.44MB/histograms/histogram_nvlink-only_AllReduce_268435456.png
+2025-12-22 20:39:34,591 - INFO - Box plot saved to /home/stone/lxn/nccl_tests/baseline/nccl_default/all_reduce_perf_1node_4dev_4090/output/summary/msg_size_268435456_268.44MB/boxplots/boxplot_nvlink-only_AllReduce_268435456.png
+2025-12-22 20:39:34,597 - INFO - Summary for nvlink-only, AllReduce, and msg_size 268435456 written to /home/stone/lxn/nccl_tests/baseline/nccl_default/all_reduce_perf_1node_4dev_4090/output/summary/msg_size_268435456_268.44MB/summary_nvlink-only_AllReduce_268435456.csv
+2025-12-22 20:39:34,715 - INFO - Histogram saved to /home/stone/lxn/nccl_tests/baseline/nccl_default/all_reduce_perf_1node_4dev_4090/output/summary/msg_size_536870912_536.87MB/histograms/histogram_nvlink-only_AllReduce_536870912.png
+2025-12-22 20:39:34,839 - INFO - Box plot saved to /home/stone/lxn/nccl_tests/baseline/nccl_default/all_reduce_perf_1node_4dev_4090/output/summary/msg_size_536870912_536.87MB/boxplots/boxplot_nvlink-only_AllReduce_536870912.png
+2025-12-22 20:39:34,846 - INFO - Summary for nvlink-only, AllReduce, and msg_size 536870912 written to /home/stone/lxn/nccl_tests/baseline/nccl_default/all_reduce_perf_1node_4dev_4090/output/summary/msg_size_536870912_536.87MB/summary_nvlink-only_AllReduce_536870912.csv
+2025-12-22 20:39:34,973 - INFO - Histogram saved to /home/stone/lxn/nccl_tests/baseline/nccl_default/all_reduce_perf_1node_4dev_4090/output/summary/msg_size_1073741824_1.07GB/histograms/histogram_nvlink-only_AllReduce_1073741824.png
+2025-12-22 20:39:35,104 - INFO - Box plot saved to /home/stone/lxn/nccl_tests/baseline/nccl_default/all_reduce_perf_1node_4dev_4090/output/summary/msg_size_1073741824_1.07GB/boxplots/boxplot_nvlink-only_AllReduce_1073741824.png
+2025-12-22 20:39:35,111 - INFO - Summary for nvlink-only, AllReduce, and msg_size 1073741824 written to /home/stone/lxn/nccl_tests/baseline/nccl_default/all_reduce_perf_1node_4dev_4090/output/summary/msg_size_1073741824_1.07GB/summary_nvlink-only_AllReduce_1073741824.csv
+2025-12-22 20:39:35,234 - INFO - Histogram saved to /home/stone/lxn/nccl_tests/baseline/nccl_default/all_reduce_perf_1node_4dev_4090/output/summary/msg_size_2147483648_2.15GB/histograms/histogram_nvlink-only_AllReduce_2147483648.png
+2025-12-22 20:39:35,365 - INFO - Box plot saved to /home/stone/lxn/nccl_tests/baseline/nccl_default/all_reduce_perf_1node_4dev_4090/output/summary/msg_size_2147483648_2.15GB/boxplots/boxplot_nvlink-only_AllReduce_2147483648.png
+2025-12-22 20:39:35,371 - INFO - Summary for nvlink-only, AllReduce, and msg_size 2147483648 written to /home/stone/lxn/nccl_tests/baseline/nccl_default/all_reduce_perf_1node_4dev_4090/output/summary/msg_size_2147483648_2.15GB/summary_nvlink-only_AllReduce_2147483648.csv
+2025-12-22 20:39:35,482 - INFO - Histogram saved to /home/stone/lxn/nccl_tests/baseline/nccl_default/all_reduce_perf_1node_4dev_4090/output/summary/msg_size_4294967296_4.29GB/histograms/histogram_nvlink-only_AllReduce_4294967296.png
+2025-12-22 20:39:35,599 - INFO - Box plot saved to /home/stone/lxn/nccl_tests/baseline/nccl_default/all_reduce_perf_1node_4dev_4090/output/summary/msg_size_4294967296_4.29GB/boxplots/boxplot_nvlink-only_AllReduce_4294967296.png
+2025-12-22 20:39:35,606 - INFO - Summary for nvlink-only, AllReduce, and msg_size 4294967296 written to /home/stone/lxn/nccl_tests/baseline/nccl_default/all_reduce_perf_1node_4dev_4090/output/summary/msg_size_4294967296_4.29GB/summary_nvlink-only_AllReduce_4294967296.csv

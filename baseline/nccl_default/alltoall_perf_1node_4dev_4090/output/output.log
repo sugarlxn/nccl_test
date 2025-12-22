@@ -1,0 +1,68 @@
+2025-12-22 20:59:17,492 - WARNING - Skipping empty file: /home/stone/lxn/nccl_tests/baseline/nccl_default/alltoall_perf_1node_4dev_4090/stone-pid3333729.log
+2025-12-22 20:59:17,493 - WARNING - Skipping empty file: /home/stone/lxn/nccl_tests/baseline/nccl_default/alltoall_perf_1node_4dev_4090/stone-pid3333732.log
+2025-12-22 20:59:17,494 - WARNING - Skipping empty file: /home/stone/lxn/nccl_tests/baseline/nccl_default/alltoall_perf_1node_4dev_4090/stone-pid3333730.log
+2025-12-22 20:59:17,495 - WARNING - Skipping empty file: /home/stone/lxn/nccl_tests/baseline/nccl_default/alltoall_perf_1node_4dev_4090/stone-pid3333731.log
+2025-12-22 20:59:17,541 - INFO - Generating summary for /home/stone/lxn/nccl_tests/baseline/nccl_default/alltoall_perf_1node_4dev_4090/output, single-rank and AllReduce
+2025-12-22 20:59:17,541 - INFO - Summarizing data per comm/coll type for /home/stone/lxn/nccl_tests/baseline/nccl_default/alltoall_perf_1node_4dev_4090/output, single-rank and AllReduce
+2025-12-22 20:59:17,541 - INFO - Generating summary for /home/stone/lxn/nccl_tests/baseline/nccl_default/alltoall_perf_1node_4dev_4090/output, single-rank and AllGather
+2025-12-22 20:59:17,541 - INFO - Generating summary for /home/stone/lxn/nccl_tests/baseline/nccl_default/alltoall_perf_1node_4dev_4090/output, nvlink-only and AllReduce
+2025-12-22 20:59:17,541 - INFO - Generating summary for /home/stone/lxn/nccl_tests/baseline/nccl_default/alltoall_perf_1node_4dev_4090/output, single-rank and ReduceScatter
+2025-12-22 20:59:17,542 - INFO - Summarizing data per comm/coll type for /home/stone/lxn/nccl_tests/baseline/nccl_default/alltoall_perf_1node_4dev_4090/output, single-rank and AllGather
+2025-12-22 20:59:17,542 - INFO - Summarizing data per comm/coll type for /home/stone/lxn/nccl_tests/baseline/nccl_default/alltoall_perf_1node_4dev_4090/output, nvlink-only and AllReduce
+2025-12-22 20:59:17,542 - INFO - Summarizing data per comm/coll type for /home/stone/lxn/nccl_tests/baseline/nccl_default/alltoall_perf_1node_4dev_4090/output, single-rank and ReduceScatter
+2025-12-22 20:59:17,541 - INFO - Generating summary for /home/stone/lxn/nccl_tests/baseline/nccl_default/alltoall_perf_1node_4dev_4090/output, nvlink-only and ReduceScatter
+2025-12-22 20:59:17,542 - INFO - Summarizing data per comm/coll type for /home/stone/lxn/nccl_tests/baseline/nccl_default/alltoall_perf_1node_4dev_4090/output, nvlink-only and ReduceScatter
+2025-12-22 20:59:17,541 - INFO - Generating summary for /home/stone/lxn/nccl_tests/baseline/nccl_default/alltoall_perf_1node_4dev_4090/output, single-rank and Broadcast
+2025-12-22 20:59:17,542 - INFO - Summarizing data per comm/coll type for /home/stone/lxn/nccl_tests/baseline/nccl_default/alltoall_perf_1node_4dev_4090/output, single-rank and Broadcast
+2025-12-22 20:59:17,542 - INFO - Generating summary for /home/stone/lxn/nccl_tests/baseline/nccl_default/alltoall_perf_1node_4dev_4090/output, nvlink-only and AllGather
+2025-12-22 20:59:17,542 - INFO - Generating summary for /home/stone/lxn/nccl_tests/baseline/nccl_default/alltoall_perf_1node_4dev_4090/output, hca-only and AllReduce
+2025-12-22 20:59:17,542 - WARNING - No parquet files found for single-rank and AllReduce
+2025-12-22 20:59:17,542 - WARNING - No data found for single-rank and AllReduce - skipping visualization generation
+2025-12-22 20:59:17,542 - INFO - Summarizing data per comm/coll type for /home/stone/lxn/nccl_tests/baseline/nccl_default/alltoall_perf_1node_4dev_4090/output, nvlink-only and AllGather
+2025-12-22 20:59:17,542 - INFO - Summarizing data per comm/coll type for /home/stone/lxn/nccl_tests/baseline/nccl_default/alltoall_perf_1node_4dev_4090/output, hca-only and AllReduce
+2025-12-22 20:59:17,542 - INFO - Generating summary for /home/stone/lxn/nccl_tests/baseline/nccl_default/alltoall_perf_1node_4dev_4090/output, nvlink-only and Broadcast
+2025-12-22 20:59:17,542 - WARNING - No parquet files found for nvlink-only and AllReduce
+2025-12-22 20:59:17,542 - INFO - Generating summary for /home/stone/lxn/nccl_tests/baseline/nccl_default/alltoall_perf_1node_4dev_4090/output, hca-only and AllGather
+2025-12-22 20:59:17,542 - WARNING - No data found for nvlink-only and AllReduce - skipping visualization generation
+2025-12-22 20:59:17,542 - WARNING - No parquet files found for single-rank and AllGather
+2025-12-22 20:59:17,542 - INFO - Summarizing data per comm/coll type for /home/stone/lxn/nccl_tests/baseline/nccl_default/alltoall_perf_1node_4dev_4090/output, nvlink-only and Broadcast
+2025-12-22 20:59:17,542 - INFO - Summarizing data per comm/coll type for /home/stone/lxn/nccl_tests/baseline/nccl_default/alltoall_perf_1node_4dev_4090/output, hca-only and AllGather
+2025-12-22 20:59:17,542 - WARNING - No data found for single-rank and AllGather - skipping visualization generation
+2025-12-22 20:59:17,542 - INFO - Generating summary for /home/stone/lxn/nccl_tests/baseline/nccl_default/alltoall_perf_1node_4dev_4090/output, mixed and AllGather
+2025-12-22 20:59:17,542 - WARNING - No parquet files found for single-rank and ReduceScatter
+2025-12-22 20:59:17,542 - WARNING - No parquet files found for nvlink-only and ReduceScatter
+2025-12-22 20:59:17,543 - WARNING - No data found for single-rank and ReduceScatter - skipping visualization generation
+2025-12-22 20:59:17,543 - INFO - Summarizing data per comm/coll type for /home/stone/lxn/nccl_tests/baseline/nccl_default/alltoall_perf_1node_4dev_4090/output, mixed and AllGather
+2025-12-22 20:59:17,543 - WARNING - No data found for nvlink-only and ReduceScatter - skipping visualization generation
+2025-12-22 20:59:17,542 - INFO - Generating summary for /home/stone/lxn/nccl_tests/baseline/nccl_default/alltoall_perf_1node_4dev_4090/output, hca-only and Broadcast
+2025-12-22 20:59:17,542 - INFO - Generating summary for /home/stone/lxn/nccl_tests/baseline/nccl_default/alltoall_perf_1node_4dev_4090/output, mixed and AllReduce
+2025-12-22 20:59:17,542 - INFO - Generating summary for /home/stone/lxn/nccl_tests/baseline/nccl_default/alltoall_perf_1node_4dev_4090/output, hca-only and ReduceScatter
+2025-12-22 20:59:17,543 - INFO - Summarizing data per comm/coll type for /home/stone/lxn/nccl_tests/baseline/nccl_default/alltoall_perf_1node_4dev_4090/output, hca-only and Broadcast
+2025-12-22 20:59:17,543 - INFO - Summarizing data per comm/coll type for /home/stone/lxn/nccl_tests/baseline/nccl_default/alltoall_perf_1node_4dev_4090/output, mixed and AllReduce
+2025-12-22 20:59:17,543 - INFO - Summarizing data per comm/coll type for /home/stone/lxn/nccl_tests/baseline/nccl_default/alltoall_perf_1node_4dev_4090/output, hca-only and ReduceScatter
+2025-12-22 20:59:17,543 - WARNING - No parquet files found for single-rank and Broadcast
+2025-12-22 20:59:17,543 - WARNING - No parquet files found for hca-only and AllReduce
+2025-12-22 20:59:17,543 - WARNING - No data found for hca-only and AllReduce - skipping visualization generation
+2025-12-22 20:59:17,543 - WARNING - No data found for single-rank and Broadcast - skipping visualization generation
+2025-12-22 20:59:17,543 - WARNING - No parquet files found for mixed and AllGather
+2025-12-22 20:59:17,543 - WARNING - No data found for mixed and AllGather - skipping visualization generation
+2025-12-22 20:59:17,543 - WARNING - No parquet files found for nvlink-only and AllGather
+2025-12-22 20:59:17,543 - INFO - Generating summary for /home/stone/lxn/nccl_tests/baseline/nccl_default/alltoall_perf_1node_4dev_4090/output, mixed and Broadcast
+2025-12-22 20:59:17,543 - WARNING - No data found for nvlink-only and AllGather - skipping visualization generation
+2025-12-22 20:59:17,543 - WARNING - No parquet files found for hca-only and AllGather
+2025-12-22 20:59:17,543 - WARNING - No parquet files found for nvlink-only and Broadcast
+2025-12-22 20:59:17,543 - WARNING - No data found for hca-only and AllGather - skipping visualization generation
+2025-12-22 20:59:17,543 - INFO - Summarizing data per comm/coll type for /home/stone/lxn/nccl_tests/baseline/nccl_default/alltoall_perf_1node_4dev_4090/output, mixed and Broadcast
+2025-12-22 20:59:17,543 - WARNING - No data found for nvlink-only and Broadcast - skipping visualization generation
+2025-12-22 20:59:17,543 - INFO - Generating summary for /home/stone/lxn/nccl_tests/baseline/nccl_default/alltoall_perf_1node_4dev_4090/output, mixed and ReduceScatter
+2025-12-22 20:59:17,544 - WARNING - No parquet files found for hca-only and Broadcast
+2025-12-22 20:59:17,544 - WARNING - No data found for hca-only and Broadcast - skipping visualization generation
+2025-12-22 20:59:17,544 - WARNING - No parquet files found for hca-only and ReduceScatter
+2025-12-22 20:59:17,544 - WARNING - No parquet files found for mixed and AllReduce
+2025-12-22 20:59:17,544 - INFO - Summarizing data per comm/coll type for /home/stone/lxn/nccl_tests/baseline/nccl_default/alltoall_perf_1node_4dev_4090/output, mixed and ReduceScatter
+2025-12-22 20:59:17,544 - WARNING - No data found for hca-only and ReduceScatter - skipping visualization generation
+2025-12-22 20:59:17,544 - WARNING - No data found for mixed and AllReduce - skipping visualization generation
+2025-12-22 20:59:17,544 - WARNING - No parquet files found for mixed and Broadcast
+2025-12-22 20:59:17,544 - WARNING - No data found for mixed and Broadcast - skipping visualization generation
+2025-12-22 20:59:17,545 - WARNING - No parquet files found for mixed and ReduceScatter
+2025-12-22 20:59:17,545 - WARNING - No data found for mixed and ReduceScatter - skipping visualization generation
