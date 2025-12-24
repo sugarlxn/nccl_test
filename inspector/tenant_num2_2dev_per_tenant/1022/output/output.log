@@ -1,0 +1,96 @@
+2025-12-23 15:16:13,924 - INFO - Created parquet file /home/stone/lxn/nccl_tests/inspector/1022/output/parquet_files/stone-pid2409103.parquet with 448 records
+2025-12-23 15:16:13,924 - INFO - Created parquet file /home/stone/lxn/nccl_tests/inspector/1022/output/parquet_files/stone-pid2409102.parquet with 448 records
+2025-12-23 15:16:13,964 - INFO - Generating summary for /home/stone/lxn/nccl_tests/inspector/1022/output, single-rank and AllReduce
+2025-12-23 15:16:13,965 - INFO - Summarizing data per comm/coll type for /home/stone/lxn/nccl_tests/inspector/1022/output, single-rank and AllReduce
+2025-12-23 15:16:13,965 - INFO - Generating summary for /home/stone/lxn/nccl_tests/inspector/1022/output, single-rank and ReduceScatter
+2025-12-23 15:16:13,965 - INFO - Generating summary for /home/stone/lxn/nccl_tests/inspector/1022/output, single-rank and Broadcast
+2025-12-23 15:16:13,965 - INFO - Summarizing data per comm/coll type for /home/stone/lxn/nccl_tests/inspector/1022/output, single-rank and ReduceScatter
+2025-12-23 15:16:13,965 - INFO - Generating summary for /home/stone/lxn/nccl_tests/inspector/1022/output, single-rank and AllGather
+2025-12-23 15:16:13,965 - INFO - Summarizing data per comm/coll type for /home/stone/lxn/nccl_tests/inspector/1022/output, single-rank and Broadcast
+2025-12-23 15:16:13,965 - INFO - Summarizing data per comm/coll type for /home/stone/lxn/nccl_tests/inspector/1022/output, single-rank and AllGather
+2025-12-23 15:16:13,965 - INFO - Generating summary for /home/stone/lxn/nccl_tests/inspector/1022/output, nvlink-only and AllReduce
+2025-12-23 15:16:13,965 - INFO - Summarizing data per comm/coll type for /home/stone/lxn/nccl_tests/inspector/1022/output, nvlink-only and AllReduce
+2025-12-23 15:16:13,965 - INFO - Generating summary for /home/stone/lxn/nccl_tests/inspector/1022/output, nvlink-only and AllGather
+2025-12-23 15:16:13,965 - INFO - Generating summary for /home/stone/lxn/nccl_tests/inspector/1022/output, nvlink-only and ReduceScatter
+2025-12-23 15:16:13,965 - INFO - Generating summary for /home/stone/lxn/nccl_tests/inspector/1022/output, hca-only and AllGather
+2025-12-23 15:16:13,966 - INFO - Summarizing data per comm/coll type for /home/stone/lxn/nccl_tests/inspector/1022/output, nvlink-only and ReduceScatter
+2025-12-23 15:16:13,966 - INFO - Summarizing data per comm/coll type for /home/stone/lxn/nccl_tests/inspector/1022/output, nvlink-only and AllGather
+2025-12-23 15:16:13,965 - INFO - Generating summary for /home/stone/lxn/nccl_tests/inspector/1022/output, nvlink-only and Broadcast
+2025-12-23 15:16:13,966 - INFO - Summarizing data per comm/coll type for /home/stone/lxn/nccl_tests/inspector/1022/output, hca-only and AllGather
+2025-12-23 15:16:13,966 - INFO - Summarizing data per comm/coll type for /home/stone/lxn/nccl_tests/inspector/1022/output, nvlink-only and Broadcast
+2025-12-23 15:16:13,965 - INFO - Generating summary for /home/stone/lxn/nccl_tests/inspector/1022/output, hca-only and AllReduce
+2025-12-23 15:16:13,966 - INFO - Summarizing data per comm/coll type for /home/stone/lxn/nccl_tests/inspector/1022/output, hca-only and AllReduce
+2025-12-23 15:16:13,966 - INFO - Generating summary for /home/stone/lxn/nccl_tests/inspector/1022/output, hca-only and Broadcast
+2025-12-23 15:16:13,966 - INFO - Generating summary for /home/stone/lxn/nccl_tests/inspector/1022/output, hca-only and ReduceScatter
+2025-12-23 15:16:13,967 - INFO - Summarizing data per comm/coll type for /home/stone/lxn/nccl_tests/inspector/1022/output, hca-only and Broadcast
+2025-12-23 15:16:13,967 - INFO - Summarizing data per comm/coll type for /home/stone/lxn/nccl_tests/inspector/1022/output, hca-only and ReduceScatter
+2025-12-23 15:16:13,966 - INFO - Generating summary for /home/stone/lxn/nccl_tests/inspector/1022/output, mixed and AllReduce
+2025-12-23 15:16:13,967 - INFO - Generating summary for /home/stone/lxn/nccl_tests/inspector/1022/output, mixed and AllGather
+2025-12-23 15:16:13,967 - INFO - Summarizing data per comm/coll type for /home/stone/lxn/nccl_tests/inspector/1022/output, mixed and AllReduce
+2025-12-23 15:16:13,967 - INFO - Summarizing data per comm/coll type for /home/stone/lxn/nccl_tests/inspector/1022/output, mixed and AllGather
+2025-12-23 15:16:13,967 - INFO - Generating summary for /home/stone/lxn/nccl_tests/inspector/1022/output, mixed and Broadcast
+2025-12-23 15:16:13,967 - INFO - Summarizing data per comm/coll type for /home/stone/lxn/nccl_tests/inspector/1022/output, mixed and Broadcast
+2025-12-23 15:16:13,967 - INFO - Generating summary for /home/stone/lxn/nccl_tests/inspector/1022/output, mixed and ReduceScatter
+2025-12-23 15:16:13,968 - INFO - Summarizing data per comm/coll type for /home/stone/lxn/nccl_tests/inspector/1022/output, mixed and ReduceScatter
+2025-12-23 15:16:13,975 - INFO - Found 2 valid parquet files (moved 0 invalid files)
+2025-12-23 15:16:13,976 - INFO - Found 2 valid parquet files (moved 0 invalid files)
+2025-12-23 15:16:13,977 - INFO - Found 2 valid parquet files (moved 0 invalid files)
+2025-12-23 15:16:13,979 - INFO - Found 2 valid parquet files (moved 0 invalid files)
+2025-12-23 15:16:13,979 - INFO - Found 2 valid parquet files (moved 0 invalid files)
+2025-12-23 15:16:13,980 - INFO - Found 2 valid parquet files (moved 0 invalid files)
+2025-12-23 15:16:13,980 - INFO - Found 2 valid parquet files (moved 0 invalid files)
+2025-12-23 15:16:13,980 - INFO - Found 2 valid parquet files (moved 0 invalid files)
+2025-12-23 15:16:13,981 - INFO - Found 2 valid parquet files (moved 0 invalid files)
+2025-12-23 15:16:13,981 - INFO - Found 2 valid parquet files (moved 0 invalid files)
+2025-12-23 15:16:13,983 - INFO - Found 2 valid parquet files (moved 0 invalid files)
+2025-12-23 15:16:13,984 - INFO - Found 2 valid parquet files (moved 0 invalid files)
+2025-12-23 15:16:13,984 - INFO - Found 2 valid parquet files (moved 0 invalid files)
+2025-12-23 15:16:13,984 - INFO - Found 2 valid parquet files (moved 0 invalid files)
+2025-12-23 15:16:13,984 - INFO - Found 2 valid parquet files (moved 0 invalid files)
+2025-12-23 15:16:13,985 - INFO - Found 2 valid parquet files (moved 0 invalid files)
+2025-12-23 15:16:13,985 - INFO - No data for single-rank and AllReduce
+2025-12-23 15:16:13,986 - WARNING - No data found for single-rank and AllReduce - skipping visualization generation
+2025-12-23 15:16:13,986 - INFO - No data for single-rank and ReduceScatter
+2025-12-23 15:16:13,986 - WARNING - No data found for single-rank and ReduceScatter - skipping visualization generation
+2025-12-23 15:16:13,987 - INFO - No data for nvlink-only and ReduceScatter
+2025-12-23 15:16:13,987 - WARNING - No data found for nvlink-only and ReduceScatter - skipping visualization generation
+2025-12-23 15:16:13,988 - INFO - No data for hca-only and AllGather
+2025-12-23 15:16:13,988 - WARNING - No data found for hca-only and AllGather - skipping visualization generation
+2025-12-23 15:16:13,991 - INFO - No data for single-rank and AllGather
+2025-12-23 15:16:13,991 - WARNING - No data found for single-rank and AllGather - skipping visualization generation
+2025-12-23 15:16:13,994 - INFO - No data for hca-only and ReduceScatter
+2025-12-23 15:16:13,995 - WARNING - No data found for hca-only and ReduceScatter - skipping visualization generation
+2025-12-23 15:16:13,995 - INFO - No data for single-rank and Broadcast
+2025-12-23 15:16:13,995 - INFO - No data for nvlink-only and AllGather
+2025-12-23 15:16:13,995 - INFO - No data for nvlink-only and Broadcast
+2025-12-23 15:16:13,996 - WARNING - No data found for single-rank and Broadcast - skipping visualization generation
+2025-12-23 15:16:13,996 - WARNING - No data found for nvlink-only and AllGather - skipping visualization generation
+2025-12-23 15:16:13,996 - WARNING - No data found for nvlink-only and Broadcast - skipping visualization generation
+2025-12-23 15:16:13,996 - INFO - No data for hca-only and AllReduce
+2025-12-23 15:16:13,996 - WARNING - No data found for hca-only and AllReduce - skipping visualization generation
+2025-12-23 15:16:13,997 - INFO - No data for mixed and Broadcast
+2025-12-23 15:16:13,998 - WARNING - No data found for mixed and Broadcast - skipping visualization generation
+2025-12-23 15:16:13,999 - INFO - No data for mixed and AllGather
+2025-12-23 15:16:13,999 - WARNING - No data found for mixed and AllGather - skipping visualization generation
+2025-12-23 15:16:14,000 - INFO - No data for mixed and AllReduce
+2025-12-23 15:16:14,000 - INFO - No data for hca-only and Broadcast
+2025-12-23 15:16:14,000 - WARNING - No data found for mixed and AllReduce - skipping visualization generation
+2025-12-23 15:16:14,000 - WARNING - No data found for hca-only and Broadcast - skipping visualization generation
+2025-12-23 15:16:14,001 - INFO - No data for mixed and ReduceScatter
+2025-12-23 15:16:14,001 - WARNING - No data found for mixed and ReduceScatter - skipping visualization generation
+2025-12-23 15:16:14,010 - INFO - Example time range - ID: 0x657fbeaf5b431a, Coll_SN: 0, Start: 2025-12-23 15:00:47.631, End: 2025-12-23 15:00:47.631, Duration: 181.0μs
+2025-12-23 15:16:14,010 - INFO - Generating visualizations for nvlink-only and AllReduce
+2025-12-23 15:16:17,439 - INFO - Scatter plot saved to /home/stone/lxn/nccl_tests/inspector/1022/output/summary/scatter_plot_nvlink-only_AllReduce.png
+2025-12-23 15:16:17,918 - INFO - Combined scatter plot saved to /home/stone/lxn/nccl_tests/inspector/1022/output/summary/combined_scatter_plot_nvlink-only_AllReduce.png
+2025-12-23 15:16:18,030 - INFO - Histogram saved to /home/stone/lxn/nccl_tests/inspector/1022/output/summary/msg_size_134217728_134.22MB/histograms/histogram_nvlink-only_AllReduce_134217728.png
+2025-12-23 15:16:18,152 - INFO - Box plot saved to /home/stone/lxn/nccl_tests/inspector/1022/output/summary/msg_size_134217728_134.22MB/boxplots/boxplot_nvlink-only_AllReduce_134217728.png
+2025-12-23 15:16:18,160 - INFO - Summary for nvlink-only, AllReduce, and msg_size 134217728 written to /home/stone/lxn/nccl_tests/inspector/1022/output/summary/msg_size_134217728_134.22MB/summary_nvlink-only_AllReduce_134217728.csv
+2025-12-23 15:16:18,283 - INFO - Histogram saved to /home/stone/lxn/nccl_tests/inspector/1022/output/summary/msg_size_268435456_268.44MB/histograms/histogram_nvlink-only_AllReduce_268435456.png
+2025-12-23 15:16:18,411 - INFO - Box plot saved to /home/stone/lxn/nccl_tests/inspector/1022/output/summary/msg_size_268435456_268.44MB/boxplots/boxplot_nvlink-only_AllReduce_268435456.png
+2025-12-23 15:16:18,417 - INFO - Summary for nvlink-only, AllReduce, and msg_size 268435456 written to /home/stone/lxn/nccl_tests/inspector/1022/output/summary/msg_size_268435456_268.44MB/summary_nvlink-only_AllReduce_268435456.csv
+2025-12-23 15:16:18,532 - INFO - Histogram saved to /home/stone/lxn/nccl_tests/inspector/1022/output/summary/msg_size_536870912_536.87MB/histograms/histogram_nvlink-only_AllReduce_536870912.png
+2025-12-23 15:16:18,654 - INFO - Box plot saved to /home/stone/lxn/nccl_tests/inspector/1022/output/summary/msg_size_536870912_536.87MB/boxplots/boxplot_nvlink-only_AllReduce_536870912.png
+2025-12-23 15:16:18,660 - INFO - Summary for nvlink-only, AllReduce, and msg_size 536870912 written to /home/stone/lxn/nccl_tests/inspector/1022/output/summary/msg_size_536870912_536.87MB/summary_nvlink-only_AllReduce_536870912.csv
+2025-12-23 15:16:18,770 - INFO - Histogram saved to /home/stone/lxn/nccl_tests/inspector/1022/output/summary/msg_size_1073741824_1.07GB/histograms/histogram_nvlink-only_AllReduce_1073741824.png
+2025-12-23 15:16:18,891 - INFO - Box plot saved to /home/stone/lxn/nccl_tests/inspector/1022/output/summary/msg_size_1073741824_1.07GB/boxplots/boxplot_nvlink-only_AllReduce_1073741824.png
+2025-12-23 15:16:18,897 - INFO - Summary for nvlink-only, AllReduce, and msg_size 1073741824 written to /home/stone/lxn/nccl_tests/inspector/1022/output/summary/msg_size_1073741824_1.07GB/summary_nvlink-only_AllReduce_1073741824.csv
