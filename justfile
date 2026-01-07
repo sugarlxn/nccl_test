@@ -89,9 +89,10 @@ run_with_inspector_tuner:
     -x NCCL_INSPECTOR_DUMP_DIR=/home/stone/lxn/nccl_tests/baseline/nccl_tuner/all_reduce_perf_1node_4dev_4090 \
     -x NCCL_INSPECTOR_ENABLE=1 \
     -x NCCL_TENANT_ID=1001 \
-    -x NCCL_TUNER_PLUGIN=/home/stone/lxn/NCCL-v2.28.9-1/nccl-2.28.9-1/ext-tuner/example/libnccl-tuner-example.so \
-    -x NCCL_TUNER_CONFIG_FILE=/home/stone/lxn/NCCL-v2.28.9-1/nccl-2.28.9-1/ext-tuner/example/nccl_tuner_1node4dev.conf \
     /home/stone/lxn/nccl_tests/build/all_reduce_perf -b 4K -e 4G -f 2 -g 1 -c 0 -n 50 -d int32 -w 10
+
+    # -x NCCL_TUNER_PLUGIN=/home/stone/lxn/NCCL-v2.28.9-1/nccl-2.28.9-1/ext-tuner/example/libnccl-tuner-example.so \
+    # -x NCCL_TUNER_CONFIG_FILE=/home/stone/lxn/NCCL-v2.28.9-1/nccl-2.28.9-1/ext-tuner/example/nccl_tuner_1node4dev.conf \
 
 run_with_inspector:
     mpirun --allow-run-as-root -np 4 \
@@ -106,7 +107,7 @@ run_with_inspector:
     -x NCCL_INSPECTOR_DUMP_DIR=/home/stone/lxn/nccl_tests/baseline/nccl_default/alltoall_perf_1node_4dev_4090 \
     -x NCCL_INSPECTOR_ENABLE=1 \
     -x NCCL_TENANT_ID=1001 \
-    /home/stone/lxn/nccl_tests/build/alltoall_perf -b 4k -e 4G -f 2 -g 1 -c 0 -n 50 -d int32 -w 10
+    /home/stone/lxn/nccl_tests/build/alltoall_perf -b 4k -e 4M -f 2 -g 1 -c 0 -n 50 -d int32 -w 10
 
 
 make:
